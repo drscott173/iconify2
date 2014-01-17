@@ -10,6 +10,16 @@
 		71879AE71884C04900CA445A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71879AE61884C04900CA445A /* Foundation.framework */; };
 		71879AEA1884C04900CA445A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71879AE91884C04900CA445A /* main.m */; };
 		71879AEE1884C04900CA445A /* iconify.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71879AED1884C04900CA445A /* iconify.1 */; };
+		718B57791889CDF800763AB6 /* NSImage+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B57781889CDF800763AB6 /* NSImage+QuickLook.m */; };
+		718B577B1889CE0800763AB6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718B577A1889CE0800763AB6 /* Quartz.framework */; };
+		718B577D1889CE0F00763AB6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718B577C1889CE0F00763AB6 /* AppKit.framework */; };
+		718B57801889CE2B00763AB6 /* ServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B577F1889CE2B00763AB6 /* ServiceProvider.m */; };
+		718B578D1889CF3400763AB6 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B57841889CF3400763AB6 /* DDAbstractDatabaseLogger.m */; };
+		718B578E1889CF3400763AB6 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B57861889CF3400763AB6 /* DDASLLogger.m */; };
+		718B578F1889CF3400763AB6 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B57881889CF3400763AB6 /* DDFileLogger.m */; };
+		718B57901889CF3400763AB6 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B578A1889CF3400763AB6 /* DDLog.m */; };
+		718B57911889CF3400763AB6 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B578C1889CF3400763AB6 /* DDTTYLogger.m */; };
+		718B57941889D02300763AB6 /* NSString+Mime.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B57931889D02300763AB6 /* NSString+Mime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +41,24 @@
 		71879AE91884C04900CA445A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71879AEC1884C04900CA445A /* iconify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iconify-Prefix.pch"; sourceTree = "<group>"; };
 		71879AED1884C04900CA445A /* iconify.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iconify.1; sourceTree = "<group>"; };
+		718B57771889CDF800763AB6 /* NSImage+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+QuickLook.h"; sourceTree = "<group>"; };
+		718B57781889CDF800763AB6 /* NSImage+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+QuickLook.m"; sourceTree = "<group>"; };
+		718B577A1889CE0800763AB6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		718B577C1889CE0F00763AB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		718B577E1889CE2B00763AB6 /* ServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProvider.h; sourceTree = "<group>"; };
+		718B577F1889CE2B00763AB6 /* ServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProvider.m; sourceTree = "<group>"; };
+		718B57831889CF3400763AB6 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		718B57841889CF3400763AB6 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		718B57851889CF3400763AB6 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		718B57861889CF3400763AB6 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		718B57871889CF3400763AB6 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		718B57881889CF3400763AB6 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		718B57891889CF3400763AB6 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		718B578A1889CF3400763AB6 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		718B578B1889CF3400763AB6 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		718B578C1889CF3400763AB6 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		718B57921889D02300763AB6 /* NSString+Mime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Mime.h"; sourceTree = "<group>"; };
+		718B57931889D02300763AB6 /* NSString+Mime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Mime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718B577D1889CE0F00763AB6 /* AppKit.framework in Frameworks */,
+				718B577B1889CE0800763AB6 /* Quartz.framework in Frameworks */,
 				71879AE71884C04900CA445A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +78,8 @@
 		71879ADA1884C04900CA445A = {
 			isa = PBXGroup;
 			children = (
+				718B577C1889CE0F00763AB6 /* AppKit.framework */,
+				718B577A1889CE0800763AB6 /* Quartz.framework */,
 				71879AE81884C04900CA445A /* iconify */,
 				71879AE51884C04900CA445A /* Frameworks */,
 				71879AE41884C04900CA445A /* Products */,
@@ -73,6 +105,13 @@
 		71879AE81884C04900CA445A /* iconify */ = {
 			isa = PBXGroup;
 			children = (
+				718B57821889CF2400763AB6 /* Logging */,
+				718B577E1889CE2B00763AB6 /* ServiceProvider.h */,
+				718B577F1889CE2B00763AB6 /* ServiceProvider.m */,
+				718B57771889CDF800763AB6 /* NSImage+QuickLook.h */,
+				718B57781889CDF800763AB6 /* NSImage+QuickLook.m */,
+				718B57921889D02300763AB6 /* NSString+Mime.h */,
+				718B57931889D02300763AB6 /* NSString+Mime.m */,
 				71879AE91884C04900CA445A /* main.m */,
 				71879AED1884C04900CA445A /* iconify.1 */,
 				71879AEB1884C04900CA445A /* Supporting Files */,
@@ -86,6 +125,23 @@
 				71879AEC1884C04900CA445A /* iconify-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		718B57821889CF2400763AB6 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				718B57831889CF3400763AB6 /* DDAbstractDatabaseLogger.h */,
+				718B57841889CF3400763AB6 /* DDAbstractDatabaseLogger.m */,
+				718B57851889CF3400763AB6 /* DDASLLogger.h */,
+				718B57861889CF3400763AB6 /* DDASLLogger.m */,
+				718B57871889CF3400763AB6 /* DDFileLogger.h */,
+				718B57881889CF3400763AB6 /* DDFileLogger.m */,
+				718B57891889CF3400763AB6 /* DDLog.h */,
+				718B578A1889CF3400763AB6 /* DDLog.m */,
+				718B578B1889CF3400763AB6 /* DDTTYLogger.h */,
+				718B578C1889CF3400763AB6 /* DDTTYLogger.m */,
+			);
+			name = Logging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				71879AEA1884C04900CA445A /* main.m in Sources */,
+				718B57791889CDF800763AB6 /* NSImage+QuickLook.m in Sources */,
+				718B57801889CE2B00763AB6 /* ServiceProvider.m in Sources */,
+				718B578D1889CF3400763AB6 /* DDAbstractDatabaseLogger.m in Sources */,
+				718B578E1889CF3400763AB6 /* DDASLLogger.m in Sources */,
+				718B578F1889CF3400763AB6 /* DDFileLogger.m in Sources */,
+				718B57901889CF3400763AB6 /* DDLog.m in Sources */,
+				718B57911889CF3400763AB6 /* DDTTYLogger.m in Sources */,
+				718B57941889D02300763AB6 /* NSString+Mime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +306,7 @@
 				71879AF31884C04900CA445A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
